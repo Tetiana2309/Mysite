@@ -519,13 +519,11 @@ body {
     }
 
     .main-btn {
-
-        font-size: 16px;
-        min-width: auto;
-        height: 50px;
-        padding: 11px 19px;
+        display: none;
 
     }
+
+
 
     .hero-images {
         width: 320px;
@@ -1033,7 +1031,7 @@ body {
 
 .our-team-images:hover {
     transform: scale(1.05);
-    background-color: none;
+
 }
 
 .our-team-subtitle {
@@ -1938,7 +1936,7 @@ body {
         z-index: 100;
         width: 100%;
         height: 100%;
-        background-color: none;
+
         transition: opacity var(--transition-duration-and-func), visibility var(--transition-duration-and-func);
     }
 

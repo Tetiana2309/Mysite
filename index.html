@@ -17,84 +17,74 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./styles.css" />
-    
   </head>
 
   <body>
     <!---------------------------------------SECTION HEADER--------------------------------->
     <header class="peage-header">
-          
-      
       <div class="header-container container">
+        <nav class="menu-page-nav">
+          <a class="logo-link link" href="#">ROBO.SCHOOL</a>
 
-              <nav class="menu-page-nav">
-              
-                  <a class="logo-link link" href="#">ROBO.SCHOOL</a>
-         
-                        <ul class="menu-page-nav-list list">
-                            <li class="menu-page-nav-item list">
-                                <a class="menu-page-nav-link link" href="">О школе</a>
-                            </li>
-                            <li class="menu-page-nav-item list">
-                              <a class="menu-page-nav-link link" href="">Тренеры</a>
-                            </li>
-                            <li class="menu-page-nav-item list">
-                                <a class="menu-page-nav-link link" href="">Стоимость</a>
-                            </li>
-                        </ul>
-              </nav>
+          <ul class="menu-page-nav-list list">
+            <li class="menu-page-nav-item list">
+              <a class="menu-page-nav-link link" href="">О школе</a>
+            </li>
+            <li class="menu-page-nav-item list">
+              <a class="menu-page-nav-link link" href="">Тренеры</a>
+            </li>
+            <li class="menu-page-nav-item list">
+              <a class="menu-page-nav-link link" href="">Стоимость</a>
+            </li>
+          </ul>
+        </nav>
 
-          <div class="mobile-nav">
-                <a href="tel:+380632152520" class="telefon-btn">
-                    <svg class="icon-telefon" width="24" height="24">
-                        <use href="./images/icon.svg#icon-Call"></use>
-                    </svg>
-                </a>
+        <div class="mobile-nav">
+          <a href="tel:+380632152520" class="telefon-btn">
+            <svg class="icon-telefon" width="24" height="24">
+              <use href="./images/icon.svg#icon-Call"></use>
+            </svg>
+          </a>
 
-            <button type="button" class="mobile-menu-open-btn">
-                <svg class="mobile-menu-open-icon" width="24" height="24">
-                    <use href="./images/icon.svg#icon-Burger"></use>
-                </svg>
+          <button type="button" class="mobile-menu-open-btn">
+            <svg class="mobile-menu-open-icon" width="24" height="24">
+              <use href="./images/icon.svg#icon-Burger"></use>
+            </svg>
+          </button>
+        </div>
+
+        <address class="contacts-address link">
+          <a class="contacts-address-link link" href="tel:+380632152520"
+            >+38 (063) 215-25-20</a
+          >
+        </address>
+
+        <div class="modal-mobile" id="mobileMenuModal">
+          <div class="mobile-menu-container">
+            <button class="mobile-menu-close-btn">
+              <svg class="mobile-menu-close-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-Close"></use>
+              </svg>
             </button>
+
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">О школе</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Тренеры</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Стоимость</a>
+              </li>
+            </ul>
           </div>
-
-          <address class="contacts-address link">
-            <a class="contacts-address-link link" href="tel:+380632152520">+38 (063) 215-25-20</a>
-          </address>
-
-                 
-
-          <div class="modal-mobile" id="mobileMenuModal">
-              <div class="mobile-menu-container">
-                      
-                      <button class="mobile-menu-close-btn">
-                        <svg class="mobile-menu-close-icon" width="24" height="24">
-                            <use href="./images/icon.svg#icon-Close"></use>
-                        </svg>
-                      </button>
-                      
-                    <ul class="mobile-nav-list">
-                        <li class="mobile-nav-item">
-                          <a class="mobile-nav-link" href="">О школе</a>
-                        </li>
-                        <li class="mobile-nav-item">
-                            <a class="mobile-nav-link" href="">Тренеры</a>
-                        </li>
-                        <li class="mobile-nav-item">
-                            <a class="mobile-nav-link" href="">Стоимость</a>
-                        </li>
-                    </ul>
-                    </div>
-                    </div>
-
+        </div>
       </div>
-          
     </header>
 
     <!---------------------------------------SECTION ONE----------------------------------------->
     <main class="peage-main">
-
-
       <section class="hero-section">
         <div class="container hero-container">
           <div class="left-side">
@@ -106,17 +96,12 @@
             <button class="main-btn" type="button">Записаться на курс</button>
           </div>
           <div class="right-side">
-
-
-
-         
-      <img class="hero-images" id="animated-image"
-     
+            <img
+              class="hero-images"
+              id="animated-image"
               src="./images/img1.jpg"
               alt="girl"
-              
             />
-          
           </div>
         </div>
       </section>
@@ -124,94 +109,91 @@
       <!-------------------------------------SECTION TWO----------------------------------------->
       <section class="about-us-section">
         <div class="container about-us-container">
-
-                <div class="about-us">
-            <h5 class="about_us-text">Robo School - </h5>
+          <div class="about-us">
+            <h5 class="about_us-text">Robo School -</h5>
             <p class="about-us_text">
-                учреждение для
-                формирования кадрового педагогического резерва в сфере робототехники
-                и программирования
+              учреждение для формирования кадрового педагогического резерва в
+              сфере робототехники и программирования
             </p>
-                </div>
+          </div>
 
-                <div class="about-us-work">
-          <ul class="about-us-list list">
-            <li class="about-us-item list">
-              <p class="about-us-subtitle">10</p>
-              <p class="about-us-text">
-                УМК по различным направлениям по робототехнике
-              </p>
-            </li>
-            <li class="about-us-item list">
-              <p class="about-us-subtitle">20</p>
-              <p class="about-us-text">
-                Школ, в которых запущена робототехника
-              </p>
-            </li>
-            <li class="about-us-item list">
-              <p class="about-us-subtitle">100</p>
-              <p class="about-us-text">
-                Педагогов прошедших курсы повышения квалификации
-              </p>
-            </li>
-            <li class="about-us-item list">
-              <p class="about-us-subtitle">10000</p>
-              <p class="about-us-text">
-                Обученных детей на базе собственных центров
-              </p>
-            </li>
-          </ul>
-                </div>
+          <div class="about-us-work">
+            <ul class="about-us-list list">
+              <li class="about-us-item list">
+                <p class="about-us-subtitle">10</p>
+                <p class="about-us-text">
+                  УМК по различным направлениям по робототехнике
+                </p>
+              </li>
+              <li class="about-us-item list">
+                <p class="about-us-subtitle">20</p>
+                <p class="about-us-text">
+                  Школ, в которых запущена робототехника
+                </p>
+              </li>
+              <li class="about-us-item list">
+                <p class="about-us-subtitle">100</p>
+                <p class="about-us-text">
+                  Педагогов прошедших курсы повышения квалификации
+                </p>
+              </li>
+              <li class="about-us-item list">
+                <p class="about-us-subtitle">10000</p>
+                <p class="about-us-text">
+                  Обученных детей на базе собственных центров
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!-------------------------------------SECTION THREE--------------------------------------->
       <section class="result-section">
         <div class="container result-container">
-                <h2 class="result-title">Что вы получите после курса</h2>
-                    <div class="result">
-                        <ul class="result-list list">
-                            <li class="result-list-item">
-              <h5 class="result-subtitle">Удостоверение</h5>
-              <p class="result-text">
-                Дающее право преподавать робототехнику для детей 6-12 лет в
-                образовательных учреждениях
-              </p>
-                            </li>
-                            <li class="result-list-item">
-              <h5 class="result-subtitle">Знания</h5>
-              <p class="result-text">
-                По основам разработки учебно-методических комплексов по
-                робототехнике и программированию
-              </p>
-                            </li>
-                            <li class="result-list-item">
-              <h5 class="result-subtitle">Практику</h5>
-              <p class="result-text">
-                Возможность пройти практику по преподаванию робототехники на
-                базе R:ED LAB (в оффлайн или онлайн формате)
-              </p>
-                            </li>
-                        </ul>
-                    </div>
-                    
+          <h2 class="result-title">Что вы получите после курса</h2>
+          <div class="result">
+            <ul class="result-list list">
+              <li class="result-list-item">
+                <h5 class="result-subtitle">Удостоверение</h5>
+                <p class="result-text">
+                  Дающее право преподавать робототехнику для детей 6-12 лет в
+                  образовательных учреждениях
+                </p>
+              </li>
+              <li class="result-list-item">
+                <h5 class="result-subtitle">Знания</h5>
+                <p class="result-text">
+                  По основам разработки учебно-методических комплексов по
+                  робототехнике и программированию
+                </p>
+              </li>
+              <li class="result-list-item">
+                <h5 class="result-subtitle">Практику</h5>
+                <p class="result-text">
+                  Возможность пройти практику по преподаванию робототехники на
+                  базе R:ED LAB (в оффлайн или онлайн формате)
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!--------------------------------------SECTION FOUR--------------------------------------->
       <section class="our-team">
-                    <div class="container our-team-container">
+        <div class="container our-team-container">
           <h2 class="our-team-title">Профессиональные тренеры</h2>
           <div class="scroll-container">
             <ul class="our-team-list">
-
               <li class="our-team-item list">
-                <img class="our-team-images" 
-                    srcset="./images/mobile/img2@2x.jpg 2x"
-                    src="./images/img2.jpg"
-                    alt="Ирина Лайм"
-                    width="350"
-                    height="500"
+                <img
+                  class="our-team-images"
+                  srcset="./images/mobile/img2@2x.jpg 2x"
+                  src="./images/img2.jpg"
+                  alt="Ирина Лайм"
+                  width="350"
+                  height="500"
                 />
                 <div class="our-team_container">
                   <h5 class="our-team-subtitle">Ирина Лайм</h5>
@@ -225,76 +207,93 @@
               </li>
 
               <li class="our-team-item list">
-                <img class="our-team-images" 
-                    srcset="./images/mobile/img3@2x.jpg 2x"
-                    src="./images/img3.jpg"
-                    alt="Марина Орлова"
-                    width="350"
-                    height="500"
+                <img
+                  class="our-team-images"
+                  srcset="./images/mobile/img3@2x.jpg 2x"
+                  src="./images/img3.jpg"
+                  alt="Марина Орлова"
+                  width="350"
+                  height="500"
                 />
                 <div class="our-team_container">
                   <h5 class="our-team-subtitle">Марина Орлова</h5>
                   <p class="our-team-subtitle-text">
                     преподаватель по робототехнике
                   </p>
-                  <a href="#" class="modal-link link" data-modal-id="modalMarina">Подробнее</a>
+                  <a
+                    href="#"
+                    class="modal-link link"
+                    data-modal-id="modalMarina"
+                    >Подробнее</a
+                  >
                 </div>
               </li>
 
               <li class="our-team-item list">
-                <img class="our-team-images" 
-                      srcset="./images/mobile/img4@2x.jpg 2x"
-                      src="./images/img4.jpg"
-                      alt="Максим Петров"
-                      width="350"
-                      height="500"
+                <img
+                  class="our-team-images"
+                  srcset="./images/mobile/img4@2x.jpg 2x"
+                  src="./images/img4.jpg"
+                  alt="Максим Петров"
+                  width="350"
+                  height="500"
                 />
                 <div class="our-team_container">
                   <h5 class="our-team-subtitle">Максим Петров</h5>
                   <p class="our-team-subtitle-text">
                     преподаватель по программированию
                   </p>
-                  <a href="#" class="modal-link link" data-modal-id="modalMaxim">Подробнее</a>
+                  <a href="#" class="modal-link link" data-modal-id="modalMaxim"
+                    >Подробнее</a
+                  >
                 </div>
               </li>
 
               <li class="our-team-item list">
-                <img class="our-team-images" 
-                    srcset="./images/mobile/img5@2x.jpg 2x"
-                    src="./images/img5.jpg"
-                    alt="Константин Назаров"
-                    width="350"
-                    height="500"
+                <img
+                  class="our-team-images"
+                  srcset="./images/mobile/img5@2x.jpg 2x"
+                  src="./images/img5.jpg"
+                  alt="Константин Назаров"
+                  width="350"
+                  height="500"
                 />
                 <div class="our-team_container">
                   <h5 class="our-team-subtitle">Константин Назаров</h5>
                   <p class="our-team-subtitle-text">
                     преподаватель по робототехнике
                   </p>
-                  <a href="#" class="modal-link link" data-modal-id="modalKonstantin">Подробнее</a>
+                  <a
+                    href="#"
+                    class="modal-link link"
+                    data-modal-id="modalKonstantin"
+                    >Подробнее</a
+                  >
                 </div>
               </li>
 
               <li class="our-team-item list">
-                <img class="our-team-images" 
-                    srcset="./images/mobile/img6@2x.jpg 2x"
-                    src="./images/img6.jpg"
-                    alt="Лиза Весенняя"
-                    width="350"
-                    height="500"
+                <img
+                  class="our-team-images"
+                  srcset="./images/mobile/img6@2x.jpg 2x"
+                  src="./images/img6.jpg"
+                  alt="Лиза Весенняя"
+                  width="350"
+                  height="500"
                 />
                 <div class="our-team_container">
                   <h5 class="our-team-subtitle">Лиза Весенняя</h5>
                   <p class="our-team-subtitle-text">
                     преподаватель по программированию
                   </p>
-                  <a href="#" class="modal-link link" data-modal-id="modalLiza">Подробнее</a>
+                  <a href="#" class="modal-link link" data-modal-id="modalLiza"
+                    >Подробнее</a
+                  >
                 </div>
               </li>
-
             </ul>
           </div>
-                    </div>
+        </div>
       </section>
 
       <!--------------------------------------SECTION FIVE--------------------------------------->
@@ -340,27 +339,14 @@
               </p>
             </li>
             <li class="application-form-item-modal">
+              <input type="text" name="name" id="name" class="modal-form" />
               <input
-                type="name"
-                name="name"
-                id="in-name"
-                placeholder="Имя"
-                class="modal-form"
-              />
-              <input
-                type="number"
+                type="tel"
                 name="number"
                 id="in-number"
-                placeholder="Телефон"
                 class="modal-form"
               />
-              <input
-                type="Email"
-                name="Email"
-                id="in-Email"
-                placeholder="E-mail"
-                class="modal-form"
-              />
+              <input type="email" name="email" id="Email" class="modal-form" />
 
               <button type="submit" class="form-btn">Оформить заявку</button>
             </li>
@@ -372,41 +358,37 @@
     <!----------------------------------------SECTION FOOTER----------------------------------->
 
     <footer class="peage-footer">
-  <div class="container page-footer-container">
-    
-      <a class="logo-link-footer link" href="">ROBO.SCHOOL</a>
-      <a class="contacts-number link" href="tel:+380632152520">+38 (063) 215-25-20</a>
-    
-  
-  </div>
+      <div class="container page-footer-container">
+        <a class="logo-link-footer link" href="">ROBO.SCHOOL</a>
+        <a class="contacts-number link" href="tel:+380632152520"
+          >+38 (063) 215-25-20</a
+        >
+      </div>
     </footer>
-
-
 
     <!--------------------MODAL WINDOW--------------------->
 
-                        <div class="modal" id="modalIrina">
-
-              <div class="modal-content-Irina">
-
-                <button class="close-button" data-modal-id="modalIrina">
+    <div class="modal" id="modalIrina">
+      <div class="modal-content-Irina">
+        <button class="close-button" data-modal-id="modalIrina">
           <svg class="btn-icon" width="8" height="8">
             <use href="./images/icon.svg#icon-Modal"></use>
           </svg>
-                </button>
+        </button>
 
-                <div class="image-and-info">
-                                      <div class="image">
-             <img class="irina-images"
-                    srcset="./images/mobile/img2@2x.jpg 2x"
-                    src="./images/img2.jpg"
-                    alt="Ирина Лайм"
-                    width="160"
-                    height="220"
-                />
-                                      </div>
+        <div class="image-and-info">
+          <div class="image">
+            <img
+              class="irina-images"
+              srcset="./images/mobile/img2@2x.jpg 2x"
+              src="./images/img2.jpg"
+              alt="Ирина Лайм"
+              width="160"
+              height="220"
+            />
+          </div>
 
-                                      <div class="info">
+          <div class="info">
             <p class="info-title">Ирина Лайм</p>
             <p class="info-text">Преподаватель по робототехнике</p>
             <ul class="social-icons-list list">
@@ -432,163 +414,178 @@
                 </a>
               </li>
             </ul>
-                                      </div>
-                </div>
-  
-                  <div class="modal-link-irina link">
-                    <a href="" class="nested-link" data-nested-modal-id="educationModalIrina">Образование</a>
-                    <a href="" class="nested-link" data-nested-modal-id="experienceModalIrina">Опыт работы</a>
-                    <a href="" class="nested-link" data-nested-modal-id="trainingModalIrina">Тренинги</a>
-            
-                  </div>
+          </div>
+        </div>
 
-                      <div class="nested-modal" id="educationModalIrina">
-                   
-                      <div class="modal-content">
-                                    <button class="close-button" type="button" data-modal-id="educationModalIrina">
+        <div class="modal-link-irina link">
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="educationModalIrina"
+            >Образование</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="experienceModalIrina"
+            >Опыт работы</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="trainingModalIrina"
+            >Тренинги</a
+          >
+        </div>
+
+        <div class="nested-modal" id="educationModalIrina">
+          <div class="modal-content">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="educationModalIrina"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
-                                    </button>
+            </button>
 
-                                    <div class="text-content">
-            <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
-            <p class="education-text">Киевский политехнический университет</p>
-            <p class="education-text">
-              Факультет: Компьютерных наук и технологий
-            </p>
-            <p class="education-text">
-              Специальность: Математика и компьютерные науки
-            </p>
-            <p class="education-text">Форма обучения: Очная</p>
-                                    </div>
-                    </div>
-                
-                      </div>
+            <div class="text-content">
+              <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
+              <p class="education-text">Киевский политехнический университет</p>
+              <p class="education-text">
+                Факультет: Компьютерных наук и технологий
+              </p>
+              <p class="education-text">
+                Специальность: Математика и компьютерные науки
+              </p>
+              <p class="education-text">Форма обучения: Очная</p>
+            </div>
+          </div>
+        </div>
 
-                      <div class="nested-modal" id="experienceModalIrina">
-                                <div class="modal-content">
-                          <button class="close-button" type="button" data-modal-id="experienceModalIrina">
-                            <svg class="btn-icon" width="8" height="8">
-                                  <use href="./images/icon.svg#icon-Modal"></use>
-                            </svg>
-                          </button>
-           
-                              <div class="work-place">
-                                    <div class="work-place-scroll">
-                            <div class="work-place-one">
-              <h4 class="work-place-title">Частные школы в Нью-Йорке, США</h4>
-              <p class="work-speciality">Помощник учителя</p>
-              <p class="work-period">cентябрь 2003 – август 2005</p>
-              <p class="work-duties-text">
-                Работалa как учитель на замену в различных Charter schools.
-              </p>
-              <p class="work-duties-text">
-                Проводилa занятия по “science”, “math”, etc.
-              </p>
-                            </div>
+        <div class="nested-modal" id="experienceModalIrina">
+          <div class="modal-content">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="experienceModalIrina"
+            >
+              <svg class="btn-icon" width="8" height="8">
+                <use href="./images/icon.svg#icon-Modal"></use>
+              </svg>
+            </button>
 
-                            <div class="work-place-two">
-              <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
-              <p class="work-speciality">
-                Учитель инженерии, технологий и архитектуры
-              </p>
-              <p class="work-period">cентябрь 2005 – апрель 2010</p>
-              <p class="work-duties-text">
-                Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Обучалa детей 3Д моделированию в программе Google SketchUp
-              </p>
-                            </div>
+            <div class="work-place">
+              <div class="work-place-scroll">
+                <div class="work-place-one">
+                  <h4 class="work-place-title">
+                    Частные школы в Нью-Йорке, США
+                  </h4>
+                  <p class="work-speciality">Помощник учителя</p>
+                  <p class="work-period">cентябрь 2003 – август 2005</p>
+                  <p class="work-duties-text">
+                    Работалa как учитель на замену в различных Charter schools.
+                  </p>
+                  <p class="work-duties-text">
+                    Проводилa занятия по “science”, “math”, etc.
+                  </p>
+                </div>
 
-                            <div class="work-place-three">
-              <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования
-              </p>
-              <p class="work-period">май 2010 – октябрь 2017</p>
-              <p class="work-duties-text">
-                Классы по Lego Mindstorms начального и среднего уровней
-              </p>
-              <p class="work-duties-text">
-                3D моделирование для детей 12-14 лет на базе Tinkercad
-              </p>
-              <p class="work-duties-text">Основы Арудино</p>
-                            </div>
+                <div class="work-place-two">
+                  <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
+                  <p class="work-speciality">
+                    Учитель инженерии, технологий и архитектуры
+                  </p>
+                  <p class="work-period">cентябрь 2005 – апрель 2010</p>
+                  <p class="work-duties-text">
+                    Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Обучалa детей 3Д моделированию в программе Google SketchUp
+                  </p>
+                </div>
 
-                            <div class="work-place-four">
-              <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования.
-                Руководительлаборатории по робототехнике для детей
-              </p>
-              <p class="work-period">ноябрь 2017 - настоящее время</p>
-              <p class="work-duties-text">
-                Ввел в школу 3D-принтеры (Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Самостоятельно разработалa курс по 3D-моделированию
-              </p>
-              <p class="work-duties-text">Обучаю азам Ардуино</p>
-              <p class="work-duties-text">
-                Создание и программирование роботов на основе Lego Mindstorms
-              </p>
-              <p class="work-duties-text">
-                Создание самостоятельных проектов на основе Ардуино
-              </p>
-              <p class="work-duties-text">
-                Обучаю детей основам электротехники
-              </p>
-                            </div>
-                                    </div>
+                <div class="work-place-three">
+                  <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования
+                  </p>
+                  <p class="work-period">май 2010 – октябрь 2017</p>
+                  <p class="work-duties-text">
+                    Классы по Lego Mindstorms начального и среднего уровней
+                  </p>
+                  <p class="work-duties-text">
+                    3D моделирование для детей 12-14 лет на базе Tinkercad
+                  </p>
+                  <p class="work-duties-text">Основы Арудино</p>
+                </div>
 
-                      </div>
-                                </div>
-                      </div>
+                <div class="work-place-four">
+                  <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования.
+                    Руководительлаборатории по робототехнике для детей
+                  </p>
+                  <p class="work-period">ноябрь 2017 - настоящее время</p>
+                  <p class="work-duties-text">
+                    Ввел в школу 3D-принтеры (Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Самостоятельно разработалa курс по 3D-моделированию
+                  </p>
+                  <p class="work-duties-text">Обучаю азам Ардуино</p>
+                  <p class="work-duties-text">
+                    Создание и программирование роботов на основе Lego
+                    Mindstorms
+                  </p>
+                  <p class="work-duties-text">
+                    Создание самостоятельных проектов на основе Ардуино
+                  </p>
+                  <p class="work-duties-text">
+                    Обучаю детей основам электротехники
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                      <div class="nested-modal" id="trainingModalIrina" >
-                    <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="trainingModalIrina">
+        <div class="nested-modal" id="trainingModalIrina">
+          <div class="modal-content">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="trainingModalIrina"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="self-study">
-            <div class="self-study-one">
-              <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
-              <p class="self-study-text">
-                Программа дополнительного образования «3D Моделирование»
-                Институт дополнительного образования «Политех»
-              </p>
-            </div>
-
-            <div class="self-stydy-two">
-              <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
-              <p class="self-study-text">
-                Онлайн тренинги повышения квалификации, разные вебинары по
-                3D-моделированию
-              </p>
-            </div>
-          </div>
-                  </div>
-                      </div>
-
+              <div class="self-study-one">
+                <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
+                <p class="self-study-text">
+                  Программа дополнительного образования «3D Моделирование»
+                  Институт дополнительного образования «Политех»
+                </p>
               </div>
 
-                        </div>
+              <div class="self-stydy-two">
+                <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
+                <p class="self-study-text">
+                  Онлайн тренинги повышения квалификации, разные вебинары по
+                  3D-моделированию
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-                        
-
-
-
-
-                        <div class="modal" id="modalMarina">
-
-                <div class="modal-content-Marina">
-
+    <div class="modal" id="modalMarina">
+      <div class="modal-content-Marina">
         <button class="close-button" data-modal-id="modalMarina">
           <svg class="btn-icon" width="8" height="8">
             <use href="./images/icon.svg#icon-Modal"></use>
@@ -597,17 +594,18 @@
 
         <div class="image-and-info">
           <div class="image">
-            <img class="marina-images"
-                    srcset="./images/mobile/img3@2x.jpg 2x"
-                    src="./images/img3.jpg"
-                    alt="Марина Орлова"
-                    width="160"
-                    height="220"
-                />
+            <img
+              class="marina-images"
+              srcset="./images/mobile/img3@2x.jpg 2x"
+              src="./images/img3.jpg"
+              alt="Марина Орлова"
+              width="160"
+              height="220"
+            />
           </div>
 
           <div class="info">
-            <p class="info-title">Марина Орлова</з>
+            <p class="info-title">Марина Орлова</p>
             <p class="info-text">Преподаватель по робототехнике</p>
             <ul class="social-icons-list list">
               <li class="social-icons-list-item">
@@ -634,152 +632,174 @@
             </ul>
           </div>
         </div>
-  
+
         <div class="modal-link-marina link">
-          <a href="" class="nested-link" data-nested-modal-id="educationModalMarina" >Образование</a>
-          <a href="" class="nested-link" data-nested-modal-id="experienceModalMarina">Опыт работы</a>
-          <a href="" class="nested-link" data-nested-modal-id="trainingModalMarina">Тренинги</a>
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="educationModalMarina"
+            >Образование</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="experienceModalMarina"
+            >Опыт работы</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="trainingModalMarina"
+            >Тренинги</a
+          >
         </div>
 
         <div class="nested-modal" id="educationModalMarina">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="educationModalMarina">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="educationModalMarina"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="text-content">
-            <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
-            <p class="education-text">Киевский политехнический университет</p>
-            <p class="education-text">
-              Факультет: Компьютерных наук и технологий
-            </p>
-            <p class="education-text">
-              Специальность: Математика и компьютерные науки
-            </p>
-            <p class="education-text">Форма обучения: Очная</p>
+              <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
+              <p class="education-text">Киевский политехнический университет</p>
+              <p class="education-text">
+                Факультет: Компьютерных наук и технологий
+              </p>
+              <p class="education-text">
+                Специальность: Математика и компьютерные науки
+              </p>
+              <p class="education-text">Форма обучения: Очная</p>
             </div>
           </div>
         </div>
 
         <div class="nested-modal" id="experienceModalMarina">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="experienceModalMarina">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="experienceModalMarina"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="work-place">
               <div class="work-place-scroll">
-            <div class="work-place-one">
-              <h4 class="work-place-title">Частные школы в Нью-Йорке, США</h4>
-              <p class="work-speciality">Помощник учителя</p>
-              <p class="work-period">cентябрь 2003 – август 2005</p>
-              <p class="work-duties-text">
-                Работалa как учитель на замену в различных Charter schools.
-              </p>
-              <p class="work-duties-text">
-                Проводилa занятия по “science”, “math”, etc.
-              </p>
-            </div>
+                <div class="work-place-one">
+                  <h4 class="work-place-title">
+                    Частные школы в Нью-Йорке, США
+                  </h4>
+                  <p class="work-speciality">Помощник учителя</p>
+                  <p class="work-period">cентябрь 2003 – август 2005</p>
+                  <p class="work-duties-text">
+                    Работалa как учитель на замену в различных Charter schools.
+                  </p>
+                  <p class="work-duties-text">
+                    Проводилa занятия по “science”, “math”, etc.
+                  </p>
+                </div>
 
-            <div class="work-place-two">
-              <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
-              <p class="work-speciality">
-                Учитель инженерии, технологий и архитектуры
-              </p>
-              <p class="work-period">cентябрь 2005 – апрель 2010</p>
-              <p class="work-duties-text">
-                Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Обучалa детей 3Д моделированию в программе Google SketchUp
-              </p>
-            </div>
+                <div class="work-place-two">
+                  <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
+                  <p class="work-speciality">
+                    Учитель инженерии, технологий и архитектуры
+                  </p>
+                  <p class="work-period">cентябрь 2005 – апрель 2010</p>
+                  <p class="work-duties-text">
+                    Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Обучалa детей 3Д моделированию в программе Google SketchUp
+                  </p>
+                </div>
 
-            <div class="work-place-three">
-              <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования
-              </p>
-              <p class="work-period">май 2010 – октябрь 2017</p>
-              <p class="work-duties-text">
-                Классы по Lego Mindstorms начального и среднего уровней
-              </p>
-              <p class="work-duties-text">
-                3D моделирование для детей 12-14 лет на базе Tinkercad
-              </p>
-              <p class="work-duties-text">Основы Арудино</p>
-            </div>
+                <div class="work-place-three">
+                  <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования
+                  </p>
+                  <p class="work-period">май 2010 – октябрь 2017</p>
+                  <p class="work-duties-text">
+                    Классы по Lego Mindstorms начального и среднего уровней
+                  </p>
+                  <p class="work-duties-text">
+                    3D моделирование для детей 12-14 лет на базе Tinkercad
+                  </p>
+                  <p class="work-duties-text">Основы Арудино</p>
+                </div>
 
-            <div class="work-place-four">
-              <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования.
-                Руководительлаборатории по робототехнике для детей
-              </p>
-              <p class="work-period">ноябрь 2017 - настоящее время</p>
-              <p class="work-duties-text">
-                Ввел в школу 3D-принтеры (Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Самостоятельно разработалa курс по 3D-моделированию
-              </p>
-              <p class="work-duties-text">Обучаю азам Ардуино</p>
-              <p class="work-duties-text">
-                Создание и программирование роботов на основе Lego Mindstorms
-              </p>
-              <p class="work-duties-text">
-                Создание самостоятельных проектов на основе Ардуино
-              </p>
-              <p class="work-duties-text">
-                Обучаю детей основам электротехники
-              </p>
-            </div>
-
+                <div class="work-place-four">
+                  <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования.
+                    Руководительлаборатории по робототехнике для детей
+                  </p>
+                  <p class="work-period">ноябрь 2017 - настоящее время</p>
+                  <p class="work-duties-text">
+                    Ввел в школу 3D-принтеры (Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Самостоятельно разработалa курс по 3D-моделированию
+                  </p>
+                  <p class="work-duties-text">Обучаю азам Ардуино</p>
+                  <p class="work-duties-text">
+                    Создание и программирование роботов на основе Lego
+                    Mindstorms
+                  </p>
+                  <p class="work-duties-text">
+                    Создание самостоятельных проектов на основе Ардуино
+                  </p>
+                  <p class="work-duties-text">
+                    Обучаю детей основам электротехники
+                  </p>
+                </div>
               </div>
-
-</div>
+            </div>
           </div>
         </div>
 
         <div class="nested-modal" id="trainingModalMarina">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="trainingModalMarina">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="trainingModalMarina"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="self-study">
-            <div class="self-study-one">
-              <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
-              <p class="self-study-text">
-                Программа дополнительного образования «3D Моделирование»
-                Институт дополнительного образования «Политех»
-              </p>
-            </div>
+              <div class="self-study-one">
+                <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
+                <p class="self-study-text">
+                  Программа дополнительного образования «3D Моделирование»
+                  Институт дополнительного образования «Политех»
+                </p>
+              </div>
 
-            <div class="self-stydy-two">
-              <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
-              <p class="self-study-text">
-                Онлайн тренинги повышения квалификации, разые вебинары по
-                3D-моделированию 
-              </p>
+              <div class="self-stydy-two">
+                <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
+                <p class="self-study-text">
+                  Онлайн тренинги повышения квалификации, разые вебинары по
+                  3D-моделированию
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
+      </div>
+    </div>
 
-                </div>
-                        </div>
-
-
-
-
-                        <div class="modal" id="modalMaxim">
-
-                <div class="modal-content-Maxim">
-
+    <div class="modal" id="modalMaxim">
+      <div class="modal-content-Maxim">
         <button class="close-button" data-modal-id="modalMaxim">
           <svg class="btn-icon" width="8" height="8">
             <use href="./images/icon.svg#icon-Modal"></use>
@@ -788,17 +808,18 @@
 
         <div class="image-and-info">
           <div class="image">
-            <img class="maxim-images"
-                      srcset="./images/mobile/img4@2x.jpg 2x"
-                      src="./images/img4.jpg"
-                      alt="Максим Петров"
-                      width="160"
-                      height="220"
-                />
+            <img
+              class="maxim-images"
+              srcset="./images/mobile/img4@2x.jpg 2x"
+              src="./images/img4.jpg"
+              alt="Максим Петров"
+              width="160"
+              height="220"
+            />
           </div>
 
           <div class="info">
-            <p class="info-title">Максим Петров</з>
+            <p class="info-title">Максим Петров</p>
             <p class="info-text">Преподаватель по программированию</p>
             <ul class="social-icons-list list">
               <li class="social-icons-list-item">
@@ -825,153 +846,174 @@
             </ul>
           </div>
         </div>
-  
+
         <div class="modal-link-maxim">
-          <a href="" class="nested-link" data-nested-modal-id="educationModalMaxim">Образование</a>
-          <a href="" class="nested-link" data-nested-modal-id="experienceModalMaxim">Опыт работы</a>
-          <a href="" class="nested-link" data-nested-modal-id="trainingModalMaxim">Тренинги</a>
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="educationModalMaxim"
+            >Образование</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="experienceModalMaxim"
+            >Опыт работы</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="trainingModalMaxim"
+            >Тренинги</a
+          >
         </div>
 
         <div class="nested-modal" id="educationModalMaxim">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="educationModalMaxim">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="educationModalMaxim"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="text-content">
-            <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
-            <p class="education-text">Киевский политехнический университет</p>
-            <p class="education-text">
-              Факультет: Компьютерных наук и технологий
-            </p>
-            <p class="education-text">
-              Специальность: Математика и компьютерные науки
-            </p>
-            <p class="education-text">Форма обучения: Очная</p>
+              <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
+              <p class="education-text">Киевский политехнический университет</p>
+              <p class="education-text">
+                Факультет: Компьютерных наук и технологий
+              </p>
+              <p class="education-text">
+                Специальность: Математика и компьютерные науки
+              </p>
+              <p class="education-text">Форма обучения: Очная</p>
             </div>
           </div>
         </div>
 
         <div class="nested-modal" id="experienceModalMaxim">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="experienceModalMaxim">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="experienceModalMaxim"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="work-place">
               <div class="work-place-scroll">
-            <div class="work-place-one">
-              <h4 class="work-place-title">Частные школы в Нью-Йорке, США</h4>
-              <p class="work-speciality">Помощник учителя</p>
-              <p class="work-period">cентябрь 2003 – август 2005</p>
-              <p class="work-duties-text">
-                Работалa как учитель на замену в различных Charter schools.
-              </p>
-              <p class="work-duties-text">
-                Проводилa занятия по “science”, “math”, etc.
-              </p>
-            </div>
+                <div class="work-place-one">
+                  <h4 class="work-place-title">
+                    Частные школы в Нью-Йорке, США
+                  </h4>
+                  <p class="work-speciality">Помощник учителя</p>
+                  <p class="work-period">cентябрь 2003 – август 2005</p>
+                  <p class="work-duties-text">
+                    Работалa как учитель на замену в различных Charter schools.
+                  </p>
+                  <p class="work-duties-text">
+                    Проводилa занятия по “science”, “math”, etc.
+                  </p>
+                </div>
 
-            <div class="work-place-two">
-              <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
-              <p class="work-speciality">
-                Учитель инженерии, технологий и архитектуры
-              </p>
-              <p class="work-period">cентябрь 2005 – апрель 2010</p>
-              <p class="work-duties-text">
-                Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Обучалa детей 3Д моделированию в программе Google SketchUp
-              </p>
-            </div>
+                <div class="work-place-two">
+                  <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
+                  <p class="work-speciality">
+                    Учитель инженерии, технологий и архитектуры
+                  </p>
+                  <p class="work-period">cентябрь 2005 – апрель 2010</p>
+                  <p class="work-duties-text">
+                    Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Обучалa детей 3Д моделированию в программе Google SketchUp
+                  </p>
+                </div>
 
-            <div class="work-place-three">
-              <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования
-              </p>
-              <p class="work-period">май 2010 – октябрь 2017</p>
-              <p class="work-duties-text">
-                Классы по Lego Mindstorms начального и среднего уровней
-              </p>
-              <p class="work-duties-text">
-                3D моделирование для детей 12-14 лет на базе Tinkercad
-              </p>
-              <p class="work-duties-text">Основы Арудино</p>
-            </div>
+                <div class="work-place-three">
+                  <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования
+                  </p>
+                  <p class="work-period">май 2010 – октябрь 2017</p>
+                  <p class="work-duties-text">
+                    Классы по Lego Mindstorms начального и среднего уровней
+                  </p>
+                  <p class="work-duties-text">
+                    3D моделирование для детей 12-14 лет на базе Tinkercad
+                  </p>
+                  <p class="work-duties-text">Основы Арудино</p>
+                </div>
 
-            <div class="work-place-four">
-              <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования.
-                Руководительлаборатории по робототехнике для детей
-              </p>
-              <p class="work-period">ноябрь 2017 - настоящее время</p>
-              <p class="work-duties-text">
-                Ввел в школу 3D-принтеры (Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Самостоятельно разработалa курс по 3D-моделированию
-              </p>
-              <p class="work-duties-text">Обучаю азам Ардуино</p>
-              <p class="work-duties-text">
-                Создание и программирование роботов на основе Lego Mindstorms
-              </p>
-              <p class="work-duties-text">
-                Создание самостоятельных проектов на основе Ардуино
-              </p>
-              <p class="work-duties-text">
-                Обучаю детей основам электротехники
-              </p>
-            </div>
-
+                <div class="work-place-four">
+                  <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования.
+                    Руководительлаборатории по робототехнике для детей
+                  </p>
+                  <p class="work-period">ноябрь 2017 - настоящее время</p>
+                  <p class="work-duties-text">
+                    Ввел в школу 3D-принтеры (Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Самостоятельно разработалa курс по 3D-моделированию
+                  </p>
+                  <p class="work-duties-text">Обучаю азам Ардуино</p>
+                  <p class="work-duties-text">
+                    Создание и программирование роботов на основе Lego
+                    Mindstorms
+                  </p>
+                  <p class="work-duties-text">
+                    Создание самостоятельных проектов на основе Ардуино
+                  </p>
+                  <p class="work-duties-text">
+                    Обучаю детей основам электротехники
+                  </p>
+                </div>
               </div>
-
-</div>
+            </div>
           </div>
         </div>
 
         <div class="nested-modal" id="trainingModalMaxim">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="trainingModalMaxim">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="trainingModalMaxim"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="self-study">
-            <div class="self-study-one">
-              <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
-              <p class="self-study-text">
-                Программа дополнительного образования «3D Моделирование»
-                Институт дополнительного образования «Политех»
-              </p>
-            </div>
+              <div class="self-study-one">
+                <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
+                <p class="self-study-text">
+                  Программа дополнительного образования «3D Моделирование»
+                  Институт дополнительного образования «Политех»
+                </p>
+              </div>
 
-            <div class="self-stydy-two">
-              <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
-              <p class="self-study-text">
-                Онлайн тренинги повышения квалификации, разые вебинары по
-                3D-моделированию 
-              </p>
+              <div class="self-stydy-two">
+                <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
+                <p class="self-study-text">
+                  Онлайн тренинги повышения квалификации, разые вебинары по
+                  3D-моделированию
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
+      </div>
+    </div>
 
-                </div>
-                        </div>
-
-
-
-
-
-                        <div class="modal" id="modalKonstantin">
-
-                <div class="modal-content-Konstantin">
-
+    <div class="modal" id="modalKonstantin">
+      <div class="modal-content-Konstantin">
         <button class="close-button" data-modal-id="modalKonstantin">
           <svg class="btn-icon" width="8" height="8">
             <use href="./images/icon.svg#icon-Modal"></use>
@@ -980,17 +1022,18 @@
 
         <div class="image-and-info">
           <div class="image">
-           <img class="konstantin-images"
-                    srcset="./images/mobile/img5@2x.jpg 2x"
-                    src="./images/img5.jpg"
-                    alt="Константин Назаров"
-                    width="160"
-                    height="220"
-                />
+            <img
+              class="konstantin-images"
+              srcset="./images/mobile/img5@2x.jpg 2x"
+              src="./images/img5.jpg"
+              alt="Константин Назаров"
+              width="160"
+              height="220"
+            />
           </div>
 
           <div class="info">
-            <p class="info-title">Константин Назаров</з>
+            <p class="info-title">Константин Назаров</p>
             <p class="info-text">Преподаватель по робототехнике</p>
             <ul class="social-icons-list list">
               <li class="social-icons-list-item">
@@ -1017,151 +1060,174 @@
             </ul>
           </div>
         </div>
-  
+
         <div class="modal-link-konstantin">
-          <a href="" class="nested-link" data-nested-modal-id="educationModalKonstantin">Образование</a>
-          <a href="" class="nested-link" data-nested-modal-id="experienceModalKonstantin">Опыт работы</a>
-          <a href="" class="nested-link" data-nested-modal-id="trainingModalKonstantin">Тренинги</a>
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="educationModalKonstantin"
+            >Образование</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="experienceModalKonstantin"
+            >Опыт работы</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="trainingModalKonstantin"
+            >Тренинги</a
+          >
         </div>
 
         <div class="nested-modal" id="educationModalKonstantin">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="educationModalKonstantin">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="educationModalKonstantin"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="text-content">
-            <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
-            <p class="education-text">Киевский политехнический университет</p>
-            <p class="education-text">
-              Факультет: Компьютерных наук и технологий
-            </p>
-            <p class="education-text">
-              Специальность: Математика и компьютерные науки
-            </p>
-            <p class="education-text">Форма обучения: Очная</p>
+              <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
+              <p class="education-text">Киевский политехнический университет</p>
+              <p class="education-text">
+                Факультет: Компьютерных наук и технологий
+              </p>
+              <p class="education-text">
+                Специальность: Математика и компьютерные науки
+              </p>
+              <p class="education-text">Форма обучения: Очная</p>
             </div>
           </div>
         </div>
 
         <div class="nested-modal" id="experienceModalKonstantin">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="experienceModalKonstantin">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="experienceModalKonstantin"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="work-place">
               <div class="work-place-scroll">
-            <div class="work-place-one">
-              <h4 class="work-place-title">Частные школы в Нью-Йорке, США</h4>
-              <p class="work-speciality">Помощник учителя</p>
-              <p class="work-period">cентябрь 2003 – август 2005</p>
-              <p class="work-duties-text">
-                Работалa как учитель на замену в различных Charter schools.
-              </p>
-              <p class="work-duties-text">
-                Проводилa занятия по “science”, “math”, etc.
-              </p>
-            </div>
+                <div class="work-place-one">
+                  <h4 class="work-place-title">
+                    Частные школы в Нью-Йорке, США
+                  </h4>
+                  <p class="work-speciality">Помощник учителя</p>
+                  <p class="work-period">cентябрь 2003 – август 2005</p>
+                  <p class="work-duties-text">
+                    Работалa как учитель на замену в различных Charter schools.
+                  </p>
+                  <p class="work-duties-text">
+                    Проводилa занятия по “science”, “math”, etc.
+                  </p>
+                </div>
 
-            <div class="work-place-two">
-              <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
-              <p class="work-speciality">
-                Учитель инженерии, технологий и архитектуры
-              </p>
-              <p class="work-period">cентябрь 2005 – апрель 2010</p>
-              <p class="work-duties-text">
-                Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Обучалa детей 3Д моделированию в программе Google SketchUp
-              </p>
-            </div>
+                <div class="work-place-two">
+                  <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
+                  <p class="work-speciality">
+                    Учитель инженерии, технологий и архитектуры
+                  </p>
+                  <p class="work-period">cентябрь 2005 – апрель 2010</p>
+                  <p class="work-duties-text">
+                    Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Обучалa детей 3Д моделированию в программе Google SketchUp
+                  </p>
+                </div>
 
-            <div class="work-place-three">
-              <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования
-              </p>
-              <p class="work-period">май 2010 – октябрь 2017</p>
-              <p class="work-duties-text">
-                Классы по Lego Mindstorms начального и среднего уровней
-              </p>
-              <p class="work-duties-text">
-                3D моделирование для детей 12-14 лет на базе Tinkercad
-              </p>
-              <p class="work-duties-text">Основы Арудино</p>
-            </div>
+                <div class="work-place-three">
+                  <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования
+                  </p>
+                  <p class="work-period">май 2010 – октябрь 2017</p>
+                  <p class="work-duties-text">
+                    Классы по Lego Mindstorms начального и среднего уровней
+                  </p>
+                  <p class="work-duties-text">
+                    3D моделирование для детей 12-14 лет на базе Tinkercad
+                  </p>
+                  <p class="work-duties-text">Основы Арудино</p>
+                </div>
 
-            <div class="work-place-four">
-              <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования.
-                Руководительлаборатории по робототехнике для детей
-              </p>
-              <p class="work-period">ноябрь 2017 - настоящее время</p>
-              <p class="work-duties-text">
-                Ввел в школу 3D-принтеры (Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Самостоятельно разработалa курс по 3D-моделированию
-              </p>
-              <p class="work-duties-text">Обучаю азам Ардуино</p>
-              <p class="work-duties-text">
-                Создание и программирование роботов на основе Lego Mindstorms
-              </p>
-              <p class="work-duties-text">
-                Создание самостоятельных проектов на основе Ардуино
-              </p>
-              <p class="work-duties-text">
-                Обучаю детей основам электротехники
-              </p>
-            </div>
-
+                <div class="work-place-four">
+                  <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования.
+                    Руководительлаборатории по робототехнике для детей
+                  </p>
+                  <p class="work-period">ноябрь 2017 - настоящее время</p>
+                  <p class="work-duties-text">
+                    Ввел в школу 3D-принтеры (Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Самостоятельно разработалa курс по 3D-моделированию
+                  </p>
+                  <p class="work-duties-text">Обучаю азам Ардуино</p>
+                  <p class="work-duties-text">
+                    Создание и программирование роботов на основе Lego
+                    Mindstorms
+                  </p>
+                  <p class="work-duties-text">
+                    Создание самостоятельных проектов на основе Ардуино
+                  </p>
+                  <p class="work-duties-text">
+                    Обучаю детей основам электротехники
+                  </p>
+                </div>
               </div>
-
-</div>
+            </div>
           </div>
         </div>
 
         <div class="nested-modal" id="trainingModalKonstantin">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="trainingModalKonstantin">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="trainingModalKonstantin"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="self-study">
-            <div class="self-study-one">
-              <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
-              <p class="self-study-text">
-                Программа дополнительного образования «3D Моделирование»
-                Институт дополнительного образования «Политех»
-              </p>
-            </div>
+              <div class="self-study-one">
+                <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
+                <p class="self-study-text">
+                  Программа дополнительного образования «3D Моделирование»
+                  Институт дополнительного образования «Политех»
+                </p>
+              </div>
 
-            <div class="self-stydy-two">
-              <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
-              <p class="self-study-text">
-                Онлайн тренинги повышения квалификации, разые вебинары по
-                3D-моделированию 
-              </p>
+              <div class="self-stydy-two">
+                <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
+                <p class="self-study-text">
+                  Онлайн тренинги повышения квалификации, разые вебинары по
+                  3D-моделированию
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
+      </div>
+    </div>
 
-                </div>
-                        </div>
-
-
-
-                        <div class="modal" id="modalLiza">
-
-                <div class="modal-content-Liza">
-
+    <div class="modal" id="modalLiza">
+      <div class="modal-content-Liza">
         <button class="close-button" data-modal-id="modalLiza">
           <svg class="btn-icon" width="8" height="8">
             <use href="./images/icon.svg#icon-Modal"></use>
@@ -1170,17 +1236,18 @@
 
         <div class="image-and-info">
           <div class="image">
-           <img class="liza-images"
-                    srcset="./images/mobile/img6@2x.jpg 2x"
-                    src="./images/img6.jpg"
-                    alt="Лиза Весенняя"
-                    width="160"
-                    height="220"
-                />
+            <img
+              class="liza-images"
+              srcset="./images/mobile/img6@2x.jpg 2x"
+              src="./images/img6.jpg"
+              alt="Лиза Весенняя"
+              width="160"
+              height="220"
+            />
           </div>
 
           <div class="info">
-            <p class="info-title">Лиза Весенняя</з>
+            <p class="info-title">Лиза Весенняя</p>
             <p class="info-text">Преподаватель по программированию</p>
             <ul class="social-icons-list list">
               <li class="social-icons-list-item">
@@ -1207,170 +1274,171 @@
             </ul>
           </div>
         </div>
-  
+
         <div class="modal-link-liza">
-          <a href="" class="nested-link" data-nested-modal-id="educationModalLiza">Образование</a>
-          <a href="" class="nested-link" data-nested-modal-id="experienceModalLiza">Опыт работы</a>
-          <a href="" class="nested-link" data-nested-modal-id="trainingModalLiza">Тренинги</a>
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="educationModalLiza"
+            >Образование</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="experienceModalLiza"
+            >Опыт работы</a
+          >
+          <a
+            href=""
+            class="nested-link"
+            data-nested-modal-id="trainingModalLiza"
+            >Тренинги</a
+          >
         </div>
 
         <div class="nested-modal" id="educationModalLiza">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="educationModalLiza">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="educationModalLiza"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="text-content">
-            <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
-            <p class="education-text">Киевский политехнический университет</p>
-            <p class="education-text">
-              Факультет: Компьютерных наук и технологий
-            </p>
-            <p class="education-text">
-              Специальность: Математика и компьютерные науки
-            </p>
-            <p class="education-text">Форма обучения: Очная</p>
+              <p class="education-text">Сентябрь 1995 — Июнь 2000</p>
+              <p class="education-text">Киевский политехнический университет</p>
+              <p class="education-text">
+                Факультет: Компьютерных наук и технологий
+              </p>
+              <p class="education-text">
+                Специальность: Математика и компьютерные науки
+              </p>
+              <p class="education-text">Форма обучения: Очная</p>
             </div>
           </div>
         </div>
 
         <div class="nested-modal" id="experienceModalLiza">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="experienceModalLiza">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="experienceModalLiza"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="work-place">
               <div class="work-place-scroll">
-            <div class="work-place-one">
-              <h4 class="work-place-title">Частные школы в Нью-Йорке, США</h4>
-              <p class="work-speciality">Помощник учителя</p>
-              <p class="work-period">cентябрь 2003 – август 2005</p>
-              <p class="work-duties-text">
-                Работалa как учитель на замену в различных Charter schools.
-              </p>
-              <p class="work-duties-text">
-                Проводилa занятия по “science”, “math”, etc.
-              </p>
-            </div>
+                <div class="work-place-one">
+                  <h4 class="work-place-title">
+                    Частные школы в Нью-Йорке, США
+                  </h4>
+                  <p class="work-speciality">Помощник учителя</p>
+                  <p class="work-period">cентябрь 2003 – август 2005</p>
+                  <p class="work-duties-text">
+                    Работалa как учитель на замену в различных Charter schools.
+                  </p>
+                  <p class="work-duties-text">
+                    Проводилa занятия по “science”, “math”, etc.
+                  </p>
+                </div>
 
-                    <div class="work-place-two">
-              <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
-              <p class="work-speciality">
-                Учитель инженерии, технологий и архитектуры
-              </p>
-              <p class="work-period">cентябрь 2005 – апрель 2010</p>
-              <p class="work-duties-text">
-                Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Обучалa детей 3Д моделированию в программе Google SketchUp
-              </p>
-                    </div>
+                <div class="work-place-two">
+                  <h4 class="work-place-title">Частная школа ThinkGlobal</h4>
+                  <p class="work-speciality">
+                    Учитель инженерии, технологий и архитектуры
+                  </p>
+                  <p class="work-period">cентябрь 2005 – апрель 2010</p>
+                  <p class="work-duties-text">
+                    Ввелa в школу 3Д принтеры (Creality CR-10, Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Обучалa детей 3Д моделированию в программе Google SketchUp
+                  </p>
+                </div>
 
-                    <div class="work-place-three">
-              <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования
-              </p>
-              <p class="work-period">май 2010 – октябрь 2017</p>
-              <p class="work-duties-text">
-                Классы по Lego Mindstorms начального и среднего уровней
-              </p>
-              <p class="work-duties-text">
-                3D моделирование для детей 12-14 лет на базе Tinkercad
-              </p>
-              <p class="work-duties-text">Основы Арудино</p>
-                    </div>
+                <div class="work-place-three">
+                  <h4 class="work-place-title">Компьютерная академия “Шаг”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования
+                  </p>
+                  <p class="work-period">май 2010 – октябрь 2017</p>
+                  <p class="work-duties-text">
+                    Классы по Lego Mindstorms начального и среднего уровней
+                  </p>
+                  <p class="work-duties-text">
+                    3D моделирование для детей 12-14 лет на базе Tinkercad
+                  </p>
+                  <p class="work-duties-text">Основы Арудино</p>
+                </div>
 
-                    <div class="work-place-four">
-              <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
-              <p class="work-speciality">
-                Преподаватель робототехники и 3D-моделирования.
-                Руководительлаборатории по робототехнике для детей
-              </p>
-              <p class="work-period">ноябрь 2017 - настоящее время</p>
-              <p class="work-duties-text">
-                Ввел в школу 3D-принтеры (Prusa I3)
-              </p>
-              <p class="work-duties-text">
-                Самостоятельно разработалa курс по 3D-моделированию
-              </p>
-              <p class="work-duties-text">Обучаю азам Ардуино</p>
-              <p class="work-duties-text">
-                Создание и программирование роботов на основе Lego Mindstorms
-              </p>
-              <p class="work-duties-text">
-                Создание самостоятельных проектов на основе Ардуино
-              </p>
-              <p class="work-duties-text">
-                Обучаю детей основам электротехники
-              </p>
-                    </div>
-
+                <div class="work-place-four">
+                  <h4 class="work-place-title">Альтернативная школа “Ух-Ты”</h4>
+                  <p class="work-speciality">
+                    Преподаватель робототехники и 3D-моделирования.
+                    Руководительлаборатории по робототехнике для детей
+                  </p>
+                  <p class="work-period">ноябрь 2017 - настоящее время</p>
+                  <p class="work-duties-text">
+                    Ввел в школу 3D-принтеры (Prusa I3)
+                  </p>
+                  <p class="work-duties-text">
+                    Самостоятельно разработалa курс по 3D-моделированию
+                  </p>
+                  <p class="work-duties-text">Обучаю азам Ардуино</p>
+                  <p class="work-duties-text">
+                    Создание и программирование роботов на основе Lego
+                    Mindstorms
+                  </p>
+                  <p class="work-duties-text">
+                    Создание самостоятельных проектов на основе Ардуино
+                  </p>
+                  <p class="work-duties-text">
+                    Обучаю детей основам электротехники
+                  </p>
+                </div>
               </div>
-
-          </div>
+            </div>
           </div>
         </div>
 
         <div class="nested-modal" id="trainingModalLiza">
           <div class="modal-content">
-            <button class="close-button" type="button" data-modal-id="trainingModalLiza">
+            <button
+              class="close-button"
+              type="button"
+              data-modal-id="trainingModalLiza"
+            >
               <svg class="btn-icon" width="8" height="8">
                 <use href="./images/icon.svg#icon-Modal"></use>
               </svg>
             </button>
             <div class="self-study">
-            <div class="self-study-one">
-              <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
-              <p class="self-study-text">
-                Программа дополнительного образования «3D Моделирование»
-                Институт дополнительного образования «Политех»
-              </p>
-            </div>
+              <div class="self-study-one">
+                <p class="self-study-text">Ноябрь 2003 — Февраль 2006</p>
+                <p class="self-study-text">
+                  Программа дополнительного образования «3D Моделирование»
+                  Институт дополнительного образования «Политех»
+                </p>
+              </div>
 
-            <div class="self-stydy-two">
-              <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
-              <p class="self-study-text">
-                Онлайн тренинги повышения квалификации, разые вебинары по
-                3D-моделированию 
-              </p>
+              <div class="self-stydy-two">
+                <p class="self-study-text">Январь 2007 - по сегодняшний день</p>
+                <p class="self-study-text">
+                  Онлайн тренинги повышения квалификации, разые вебинары по
+                  3D-моделированию
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
-
-                </div>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
+      </div>
+    </div>
 
     <script src="./JavaScript/button.js"></script>
     <script src="./JavaScript/modal-window.js"></script>
@@ -1378,8 +1446,5 @@
     <script src="./JavaScript/price.js"></script>
     <script src="./JavaScript/animation_one.js"></script>
     <script src="./JavaScript/animation_two.js"></script>
-    
-
   </body>
-
 </html>
